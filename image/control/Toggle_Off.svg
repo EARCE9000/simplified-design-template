@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 54 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="アートボード1" transform="matrix(0.0527344,0,0,0.0390625,0,0)">
+        <rect x="0" y="0" width="1024" height="768" style="fill:none;"/>
+        <g id="Switch-Off" serif:id="Switch Off" transform="matrix(22.7556,0,0,30.72,-9580.09,-54036.5)">
+            <path id="Base" d="M466,1771.5C466,1764.6 460.399,1759 453.5,1759L433.5,1759C426.601,1759 421,1764.6 421,1771.5C421,1778.4 426.601,1784 433.5,1784L453.5,1784C460.399,1784 466,1778.4 466,1771.5Z" style="fill:rgb(201,211,223);"/>
+            <circle id="Circle" cx="433.5" cy="1771.5" r="10.5" style="fill:white;"/>
+        </g>
+    </g>
+</svg>

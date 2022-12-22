@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="Template Source" content="https://www.earce.biz/" />
+<meta name="Template copyright" content="Copyright &copy; 2022 EARCE.NET" />
+<meta name="Template License" content="GNU General Public License v2 or later" />
+<meta name="Template License URL" content="http://www.gnu.org/licenses/gpl-2.0.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/flexbox.css" type="text/css">
+<link rel="stylesheet" href="css/design.css" type="text/css">
+<style>
+</style>
+</head>
+<body>
+
+<div class="header">
+Logo
+</div>
+
+<div class="flex_menubar">
+  <a href="#">Main Link1</a>
+  <a href="#">Main Link2</a>
+  <a href="#">Main Link3</a>
+</div>
+
+<div class="flex_container">
+  <div class="flex_main">
+    <h2>Main Contents</h2>
+    <div class="flex_container">
+
+      <div class="flex_item1 item_group">
+        <h3 style="margin:0px;">Group Title 1</h3>
+        <div class="entrydata">
+          <label>abcde<br>
+            <input type="text" placeholder="abcde input example" />
+          </label>
+        </div>
+        <div class="entrydata">
+          <label>abcde<br>
+            <input type="text" />
+          </label>
+        </div>
+      </div>
+
+
+      <div class="flex_item1 item_group">
+        <h3 style="margin:0px;">Group Title 2</h3>
+        <div class="entrydata">
+          <input type="checkbox" id="check1" name="check1" />
+          <label for="check1" >Check1</label>
+          <input type="checkbox" id="check2" name="check2" />
+          <label for="check2" >Check2</label>
+          <input type="checkbox" id="check3" name="check3" />
+          <label for="check3" >Check3</label>
+        </div>
+        <div class="entrydata">
+          <input type="radio" id="radio11" name="radio1" />
+          <label for="radio11">Radio1-1</label>
+          <input type="radio" id="radio12" name="radio1" />
+          <label for="radio12">Radio1-2</label>
+          <input type="radio" id="radio13" name="radio1" />
+          <label for="radio13">Radio1-3</label>
+        </div>
+        <div class="entrydata">
+          <input type="radio" id="radio21" name="radio2" />
+          <label for="radio21">Radio2-1</label>
+          <input type="radio" id="radio22" name="radio2" />
+          <label for="radio22">Radio2-2</label>
+          <input type="radio" id="radio23" name="radio2" />
+          <label for="radio23">Radio2-3</label>
+        </div>
+      </div>
+
+
+
+      <div class="flex_item1 item_group">
+        <h3 style="margin:0px;">Group Title 3</h3>
+        <div class="entrydata">
+          <input type="checkbox" class="toggle" id="checkbox1">
+          <label class="toggleGroup" for="checkbox1" style="height:40px;">
+            <img class="toggleOn" style="height:30px;" src="image/control/Toggle_On.svg">
+            <img class="toggleOff" style="height:30px;" src="image/control/Toggle_Off.svg">
+            あいうえお
+          </label>
+        </div>
+        <div class="entrydata">
+          <input type="checkbox" class="toggle" id="checkbox2" />
+          <label class="toggleGroup" for="checkbox2">
+            <img class="toggleOn" style="height:30px;" src="image/control/Toggle_On.svg">
+            <img class="toggleOff" style="height:30px;" src="image/control/Toggle_Off.svg">
+            かきくけこ
+          </label>
+        </div>
+        <div class="entrydata">
+          <input type="checkbox" class="toggle" id="checkbox3" />
+          <label class="toggleGroup" for="checkbox3">
+            <img class="toggleOn" style="height:30px;" src="image/control/Toggle_On.svg">
+            <img class="toggleOff" style="height:30px;" src="image/control/Toggle_Off.svg">
+            さしすせそ
+          </label>
+        </div>
+        <div class="entrydata">
+          <input type="checkbox" class="toggle" id="checkbox4" />
+          <label class="toggleGroup" for="checkbox4">
+            <img class="toggleOn" style="height:30px;" src="image/control/Toggle_On.svg">
+            <img class="toggleOff" style="height:30px;" src="image/control/Toggle_Off.svg">
+            たちつてと
+          </label>
+        </div>
+        <div class="entrydata">
+          <input type="checkbox" class="toggle" id="checkbox5" />
+          <label class="toggleGroup" for="checkbox5">
+            <img class="toggleOn" style="height:30px;" src="image/control/Toggle_On.svg">
+            <img class="toggleOff" style="height:30px;" src="image/control/Toggle_Off.svg">
+            なにぬねの
+          </label>
+        </div>
+      </div>
+  
+
+
+      <div class="flex_item1 item_group" id="areaDropDown">
+        <h3 style="margin:0px;">Group Title 4</h3>
+        <div class="entrydata" style="color:#8a8a8a;text-align:center;">
+          <img src="image/icon/action/DnD.svg" width="40" style="vertical-align: middle;">
+          Drag & Drop files here to upload.
+        </div>
+        <div class="entrydata">
+          ABCDEファイル
+        </div>
+        <div class="entrydata">
+          ABCDEファイル
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="flex_container">
+      <div class="flex_item1">
+        <div style="padding-top:10px;">
+          <div class="flex_container">
+            <div class="flex_item1 item_action">
+              <button class="cancel_button" style="width:90%" >Cancel</button>
+            </div>
+            <div class="flex_item1 item_action">
+              <button class="caution_button" style="width:90%" >Caution</button>
+            </div>
+            <div class="flex_item1 item_action">
+              <button class="warning_button" style="width:90%" >Warning</button>
+            </div>
+            <div class="flex_item1 item_action">
+              <button class="entry_button" style="width:90%" >Entry</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="flex_side">
+    <h2>Sub Menu</h2>
+    <ul class="submenubar">
+      <li><a href="#">Sub Menu 01</a></li>
+      <li><a href="#">Sub Menu 02</a></li>
+      <li><a href="#">Sub Menu 03</a></li>
+      <li><a href="#">Sub Menu 04</a></li>
+      <li><a href="#">Sub Menu 05</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+<script type="text/javascript" >
+<!--
+
+/* 指定ファイルオブジェクトをアップロード */
+const uploadFile = (fileObject) => {
+
+  // ファイルサイズとタイプが存在しない場合はフォルダのため、アップロード対象としては扱わない
+  if (fileObject.size!=0 && fileObject.type!="") {
+    let fr = new FileReader();
+    fr.onload = () => {
+      let formData = new FormData();
+      // blobで開いてappend
+      let blob = new Blob([fr.result], {type: fileObject.type});
+      formData.append("uploadfile", blob);
+      // ファイル情報をappend
+      formData.append("filename", fileObject.name); // ファイル名
+      formData.append("filesize", fileObject.size); // サイズ
+      formData.append("filetype", fileObject.type); // type
+      formData.append("filelastModified", fileObject.lastModified); // 最終更新日時
+
+      let request = new XMLHttpRequest();
+      //request.open("POST", "/upload.php");
+      //request.send(formData);
+    }
+    fr.readAsDataURL(fileObject);
+  }
+}
+
+
+// ファイルアップロードエリアのELEMENT
+const areaDropDown = document.getElementById('areaDropDown');
+/* drag over(hover)時 イベント処理 */
+areaDropDown.addEventListener(
+  'dragover', function(e) {
+    // 他のEventDrivenをキャンセル
+    e.stopPropagation();
+    // 規定処理をキャンセル
+    e.preventDefault();
+    this.style.background = '#e1e7f0';
+}, false);
+
+
+/* drag leave(hover解除)時 イベント処理 */ 
+areaDropDown.addEventListener(
+  'dragleave', function(e) {
+    // 他のEventDrivenをキャンセル
+    e.stopPropagation();
+    // 規定処理をキャンセル
+    e.preventDefault();
+    this.style.background = '#ffffff';
+}, false);
+
+
+/* drop(ファイルDrop)時 イベント処理 */ 
+areaDropDown.addEventListener(
+  'drop', function(e) {
+    // 他のEventDrivenをキャンセル
+    e.stopPropagation();
+    // 規定処理（OpenFile）をキャンセル
+    e.preventDefault();
+    this.style.background = '#ffffff';
+    var files = e.dataTransfer.files;
+    for (var idx=0;idx<files.length;idx++) {
+      // Fileオブジェクト
+      uploadFile(files[idx]);
+    }
+}, false);
+
+
+// -->
+</script>
+</html>
+
+
